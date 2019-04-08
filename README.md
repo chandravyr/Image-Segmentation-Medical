@@ -1,4 +1,4 @@
-# Lung Segmentation (2D)
+# Image Segmentation - Medical (2D)
 Repository features [UNet](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) inspired architecture used for segmenting lungs on chest X-Ray images.
 
 ## Demo
