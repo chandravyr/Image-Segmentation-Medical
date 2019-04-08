@@ -1,8 +1,8 @@
 # Image Segmentation - Medical (2D)
-Repository features [UNet](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) inspired architecture used for segmenting lungs on chest X-Ray images.
+Repository features UNet inspired architecture used for segmenting lungs on chest X-Ray images.
 
 ## Demo
-See the application of the model in [Demo](https://github.com/imlab-uiip/lung-segmentation-2d/tree/master/Demo) folder.
+See the application of the model in [Demo] folder.
 
 ## Implementation
 Implemented in Keras(2.0.4) with TensorFlow(1.1.0) as backend. 
@@ -14,7 +14,7 @@ To use this implementation one needs to load and preprocess data (see `load_data
 `trained_model.hdf5` contains model trained on both data sets mentioned below.
 
 ## Segmentation
-Scores achieved on [Montgomery](https://openi.nlm.nih.gov/faq.php#faq-tb-coll) and [JSRT](http://db.jsrt.or.jp/eng.php)(With [these masks](http://www.isi.uu.nl/Research/Databases/SCR/). See `preprocess_JSRT.py`.) (Measured using 5-fold cross-validation):
+Scores achieved on [Montgomery] and [JSRT] (With [these masks](http://www.isi.uu.nl/Research/Databases/SCR/). See `preprocess_JSRT.py`.) (Measured using 5-fold cross-validation):
 
 |      |  JSRT | Montgomery |
 |:----:|:-----:|:----------:|
